@@ -29,7 +29,7 @@
     "preview": "vite preview",
     "prepare": "npm run build"
   },
-  "author": "Sekoyo (https://github.com/sekoyo)",
+  "author": "Dominic Tobias (https://github.com/dominictobias)",
   "keywords": [
     "react",
     "reactjs",
