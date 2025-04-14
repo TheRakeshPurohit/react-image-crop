@@ -26,10 +26,10 @@ export default defineConfig({
           'react-dom': 'ReactDOM',
         },
         assetFileNames: chunkInfo => {
-          if (chunkInfo.name == 'style.css') {
-            return 'ReactCrop.css' // For compat with older versions
+          if (chunkInfo.names.includes('index.css')) {
+            return 'ReactCrop.css' // For compat with previous versions
           }
-          return chunkInfo.name || ''
+          return chunkInfo.names[0]
         },
       },
     },
