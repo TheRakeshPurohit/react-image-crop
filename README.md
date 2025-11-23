@@ -40,9 +40,10 @@ If React Crop doesn't cover your requirements then take a look at [Pintura](http
 ## Installation
 
 ```
+bun add react-image-crop
 npm i react-image-crop --save
-yarn add react-image-crop
 pnpm add react-image-crop
+yarn add react-image-crop
 ```
 
 This library works with all modern browsers. It does not work with IE.
@@ -281,4 +282,4 @@ And your `aspect` prop should be set to the same value: `<ReactCrop aspect={16 /
 
 ## Contributing / Developing
 
-To develop run `pnpm install && pnpm dev` and open the localhost server in your browser. Update code and it will reload. When you're ready, open a pull request.
+To develop run `bun install && bun run dev` and open the localhost server in your browser. Update code and it will reload. When you're ready, open a pull request.
